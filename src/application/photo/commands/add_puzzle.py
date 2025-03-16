@@ -6,7 +6,7 @@ from didiator import EventMediator
 from src.application.common.command import Command, CommandHandler
 from src.application.common.interfaces.uow import UnitOfWork
 from src.application.photo.interfaces import PhotoRepo
-from src.domain.mirror.photo.value_objects import PhotoId, PhotoUrl
+from src.domain.mirror_core.photo.value_objects import PhotoId, PhotoUrl
 
 logger = logging.getLogger(__name__)
 
